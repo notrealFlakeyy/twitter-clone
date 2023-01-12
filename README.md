@@ -3,7 +3,7 @@
 ## Todo
 - [x] Create a new project
 - [x] Add Tailwind CSS
-- [ ] Design the UI
+- [x] Design the UI
 - [ ] Add Firebase
 - [ ] Add database
 - [ ] Create feed

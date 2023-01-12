@@ -5,11 +5,46 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Twotter</title>
 </head>
 
-<body>
-  <h1 class="text-6xl">Twotter</h1>
+<body class="flex justify-center items-start gap-4">
+  <section class=" top-4 sticky">
+    <img
+      src="https://cdn.discordapp.com/attachments/1006093493795557417/1062680958681227355/24030236-removebg-preview.png"
+      alt="logo" class="w-14">
+  </section>
+  <main class="max-w-[598px] w-full border-x border-gray-200 p-4">
+    <h1 class="font-bold text-2xl">Tweets</h1>
+    <ul>
+      <li class="flex gap-4">
+        <img
+          src="https://cdn.discordapp.com/attachments/1006093493795557417/1062680958681227355/24030236-removebg-preview.png"
+          alt="logo" class="w-12 h-12 bg-gray-300 rounded-full">
+        <div>
+          <div class="flex gap-2 text-gray-500">
+            <span class="font-semibold text-black">Matti Meikäläinen</span>
+            <span class="">@matti94</span>
+            <span>14:31</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facilis beatae aliquid cum odit commodi?
+            Officiis ducimus ipsum blanditiis? Quas delectus reprehenderit enim distinctio sequi possimus error amet
+            libero deserunt?</p>
+          <div>
+            <i class="ph-heart"></i>
+          </div>
+        </div>
+
+      </li>
+    </ul>
+  </main>
+  <section class="bg-green-400 top-4 left-0 sticky">
+    Login
+  </section>
+  <script src="https://unpkg.com/phosphor-icons"></script>
   <script type="module" src="/main.js"></script>
 </body>
 
