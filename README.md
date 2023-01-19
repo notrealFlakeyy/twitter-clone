@@ -5,17 +5,17 @@
 - [x] Add Tailwind CSS
 - [x] Design the UI
 - [x] Create Supabase Project
-- [ ] Add Supabase SDK
-- [ ] Add database
+- [x] Add Supabase SDK
+- [x] Add database
 - [x] Create feed
-- [ ] Add authentication
-- [ ] Add sign up
-- [ ] Add sign in
-- [ ] Add sign out
+- [x] Add authentication
+- [x] Add sign up
+- [x] Add sign in
+- [x] Add sign out
 - [ ] Delete own twoot
 - [ ] Create twoot
 - [ ] Like/Unlike twoot
-- [ ] Support images
+
 
 
 ## Extra
@@ -24,7 +24,7 @@
 - [ ] Pagination/ Infinite scroll
 - [ ] Retwoot
 - [ ] Add Dark mode
-
+- [ ] Support images
 
 
 ## Description 
