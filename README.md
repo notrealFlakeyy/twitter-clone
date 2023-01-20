@@ -12,9 +12,9 @@
 - [x] Add sign up
 - [x] Add sign in
 - [x] Add sign out
-- [ ] Delete own twoot
-- [ ] Create twoot
-- [ ] Like/Unlike twoot
+- [x] Create twoot
+- [x] Update Feed
+- [x] Delete own twoot
 
 
 
@@ -25,6 +25,7 @@
 - [ ] Retwoot
 - [ ] Add Dark mode
 - [ ] Support images
+- [ ] Like/Unlike twoot
 
 
 ## Description 

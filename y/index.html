@@ -20,9 +20,24 @@
   </section>
 
   <main class="max-w-[598px] w-full border-gray-200 p-4 md:border-x">
+    <div class="hidden flex gap-4 mb-4">
+      <div class="w-14 h-14 rounded-full">
+        <img src="logo.png" alt="">
+      </div>
+      <div class="w-full">
+        <textarea class="w-full mb-2" placeholder="What's happening?" rows="2"></textarea>
+        <button id="tweet" class="bg-blue-500 px-4 py-1 rounded-3xl text-white float-right">Tweet</button>
+      </div>
+    </div>
+
     <h1 class="font-bold text-2xl">Tweets</h1>
 
+    <div id="new-tweets" class="hidden w-full py-4 text-center border-b text-blue-500 cursor-pointer">
+      <!-- New tweet count goes here -->
+    </div>
+
     <ul class="space-y-6 mt-6">
+      <!-- Tweets go here -->
     </ul>
   </main>
 
@@ -43,12 +58,12 @@
         Cookie Use.</p>
     </div>
 
-    <div id="logout" class="border border-gray-200 p-4 rounded-xl space-y-4 mb-2 min-w-[220px]">
+    <div id="logout" class="hidden border border-gray-200 p-4 rounded-xl space-y-4 mb-2 min-w-[220px]">
       <h2></h2>
       <button
         class="border border-gray-300 p-2 rounded-3xl flex justify-center items-center gap-2 w-full hover:bg-gray-200">
         <i class="ph-paper-plane-right text-2xl"></i>
-        Sign Out
+        Sign out
       </button>
     </div>
 
